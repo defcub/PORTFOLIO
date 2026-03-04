@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taras Kaban | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="avatar.jpg" alt="ELLAY">
+        </div>
+        <div class="hero-content">
+            <h1>ELLAY</h1>
+            <p>3D Generalist & Motion Designer</p>
+            <a href="https://t.me/ELLAY11" target="_blank" class="btn-tg">Зв'язатися в Telegram</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <div class="container">
+        <nav class="tabs" id="portfolio">
+            <button class="tab-btn active" onclick="openTab(event, 'edits')">Едіти</button>
+            <button class="tab-btn" onclick="openTab(event, 'reels')">Рілси</button>
+            <button class="tab-btn" onclick="openTab(event, '3d')">3D Візуалізація</button>
+        </nav>
+
+        <main class="portfolio-content">
+            
+            <div id="edits" class="tab-content active">
+                <div class="video-grid">
+                    
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582314/MoGraph_xvhrbc.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>MoGraph</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582322/TheWeeknd_x9vqol.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>The Weeknd Edit</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582343/EDIT_da5qze.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Silent Voice Edit</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="reels" class="tab-content">
+                <div class="video-grid reels">
+                    
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772583027/reels-2_1ZBnr979_cx2bv3.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Reel</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772580446/ANTONYUK_xvt1yh.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Antonyuk Project</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582554/REELS_1_hvldnh.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Reel #1</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582555/REELS_txw5aa.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Motion Reel</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582608/REELSAIHOOK_x5xr1f.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>AI Hook Reel</span>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772582609/REELS_3_o6pdlk.mp4" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>Creative Reel</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="3d" class="tab-content">
+                <div class="video-grid landscape">
+                    
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline>
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772583074/3DANIMATION_xghn6r.mov" type="video/quicktime">
+                            <source src="https://res.cloudinary.com/drpdfpcwh/video/upload/v1772583074/3DANIMATION_xghn6r.mov" type="video/mp4">
+                        </video>
+                        <div class="info">
+                            <span>3D Product Animation</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer>
+        <footer class="site-footer">
+    <div class="drive-link">
+        <p>Бажаєте переглянути всі роботи у вихідній якості зі звуком?</p>
+        <a href="https://drive.google.com/drive/folders/19V4oQ1CpmoFSfkjDwPTd_CCV1O5v0Wwk?usp=sharing" target="_blank" class="footer-link">Відкрити Google Диск</a>
+    </div>
+    
+    <p class="copyright">&copy; 2026 Taras Kaban. All rights reserved.</p>
+</footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
